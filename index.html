@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Fonts and Sizing</title>
+    <title>Break Points</title>
 </head>
 <body>
-    <h1 class="font-bold mx-2 my-3 text-3xl uppercase">This is new Journey</h1>
-    <h1 class="mx-5 font-extralight text-yellow-300">this is me</h1>
-    <h1 class="mx-5 font-sans font-extrabold -tracking-widest">this is me</h1>
-    <h1 class="mx-5 font-black tracking-tighter">this is me</h1>
-    <!-- tarcking classses where used to give space between words -->
+    <h1 class="text-xl">Responsiveness</h1>
+    <div class="lg:hidden mx-4 px-1 text-lg sm:text-sm md:text-base lg:text-xl bg-red-900 sm:bg-yellow-500 text-white md:bg-indigo-600 lg:bg-green-400 lg:text-black">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse aut cumque rerum repellat modi at a similique suscipit ipsa magnam distinctio reprehenderit, nihil, libero accusantium. Fuga numquam minus temporibus?</div>
+
+    <div class="hidden lg:block mx-4 px-1 text-lg sm:text-sm md:text-base lg:text-xl bg-red-900 sm:bg-yellow-500 text-white md:bg-indigo-600 lg:bg-green-400 lg:text-black">
+       hey ! you are on the large Screen
+    <!-- responsiveness property -->
+    <!--sm:text-sm and md:text-base(default-size) will change the size of text  -->
+    <!-- Start with small screen to check responsivness -->
+        <!-- sm breakpoint change color to yeloow when screen becomes small and when it gets larger it changes to green-->
+    </div>
 </body>
 </html>
