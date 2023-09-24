@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+/* @applying directive */
+/* we put this .btn before the utilities class bec--> we want to add our Css style before utlities class */
+.btn{
+    @apply bg-green-500 hover:bg-black text-white font-bold py-2 px-4 rounded-full
+}
+
+@tailwind utilities;
+.text-vic{
+    @apply text-yellow-500 bg-green-400 ;
+}
