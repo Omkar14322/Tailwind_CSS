@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* we use layer directory to apply btn after that
+put this class under the tailwind components.. */
+@layer components{
+
+    .btn{
+        @apply text-white bg-red-400 rounded-xl px-3 py-2 text-sm;
+    }
+}
